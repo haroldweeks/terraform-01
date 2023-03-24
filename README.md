@@ -1,4 +1,4 @@
-# terrafrom-01
+# terraform-01
 
 Pruebas terraform
 
