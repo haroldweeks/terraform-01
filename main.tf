@@ -41,7 +41,7 @@ resource "google_storage_bucket" "bucket" {
 }
 
 resource "google_bigquery_dataset" "default" {
-  dataset_id                  = "tfprueba"
+  dataset_id                  = var.dataset_id
   friendly_name               = "test-terraform"
   description                 = "This is a test description"
   location                    = "US"
